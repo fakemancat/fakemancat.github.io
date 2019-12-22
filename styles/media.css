@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+    .profile {
+        width: 100%;
+    }
+
+    .avatar {
+        height: 100%;
+    }
+
+    .posts__container {
+        width: 100%;
+    }
+
+    .posts__post {
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .avatar {
+        height: 100%;
+        width: calc(100% / 12 * 9);
+    }
+
+    .posts__container {
+        margin-top: 400px;
+    }
+
+    .posts__post-header, .posts__post-text, .profile {
+        width: 100%;
+    }
+
+    .posts__post-name {
+        margin-left: 16px;
+    }
+
+    .posts__post-button {
+        margin-right: -32px;
+    }
+}

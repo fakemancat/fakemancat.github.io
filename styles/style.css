@@ -136,6 +136,7 @@ body {
     background: #FFFFFF;
     border-radius: 10px;
     margin-bottom: 32px;
+    box-sizing: border-box;
 
     display: flex;
     flex-direction: column;
